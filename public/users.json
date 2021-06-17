@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "firstName": "vasya",
+    "lastName": "vasyilievich",
+    "profilePicture": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b"
+  },
+
+  {
+    "id": 2,
+    "firstName": "Dim",
+    "lastName": "Dimovich",
+    "profilePicture": "https://www.leisureopportunities.co.uk/images/995586_746594.jpg"
+  },
+  {
+    "id": 3,
+    "firstName": "Yuriy",
+    "lastName": "Yuriyvich",
+    "profilePicture": "https://images.squarespace-cdn.com/content/v1/5070f2f8c4aa65eb3b6394d0/1436318760553-FXYJT6WFQ1707RGHAICV/ke17ZwdGBToddI8pDm48kMIebV6MdNPQMcRDrC5oPxMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc73FUbOtyHSZLq0696RfXhzOQ1C7e-4RYctpOI87j69--0uIsXqDbvJ5MkV0zcn4f/LYB+People+Profile+%2807%29.jpg?format=1500w"
+  },
+  {
+    "id": 4,
+    "firstName": "Sergey",
+    "lastName": "Sergeevich",
+    "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj30-yMPOqzukj-WCiJb2srcrA-mWyrrznyQ&usqp=CAU"
+  },
+  {
+    "id": 5,
+    "firstName": "test",
+    "lastName": "Testovich",
+    "profilePicture": "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+  }
+]

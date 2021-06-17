@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import {UserContext, ThemeContext } from './contexts';
+import { THEME_VALUES } from './constants/constants';
+import PageHeader from './components/PageHeader'
+
 
 function App() {
+ const authUserState = useState({
+    name: 'Test',
+    surname: 'Testovich',
+ });
+
+ const themeState = useState(THEME_VALUES.LIGHT);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      <ThemeContext.Provider value={themeState}>
+     <UserContext.Provider value={authUserState}>
+     <PageHeader />
+      </UserContext.Provider>
+        </ThemeContext.Provider>
+          </>
   );
 }
+  export default App;
 
-export default App;
